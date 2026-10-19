@@ -27,7 +27,7 @@ table {
 input,
 textarea {
     margin-top: 20px; /* Spacing above the button */
-    display: flex; /* Enables easy alignment (left, center, or right) */
+    display: flex; /* Enables alignment (left, center, or right) */
     background-color: #003355;
     border-color: #000;
     color: #aabbff;
@@ -35,14 +35,22 @@ textarea {
 
 /* Buttons */
 
-.contact-submit-btn {
+/* Contact form's submit button */
+.contact-submit-btn input[type="submit"] {
     margin-top: 20px; /* Spacing above the button */
     display: flex; /* Enables easy alignment (left, center, or right) */
     justify-content: flex-start; /* Change to 'center' or 'flex-end' if needed */
-}
+    background-color: #3498db;
 
-.contact-submit-btn {
-    border-color: aquamarine;
+    border: 2px solid #2980b9;
+    padding: 12px 12px;
+
+    /* Text styling */
+    color: white;
+    font-size: 16px;
+
+    /* Change cursor to a hand, showing it's clickable */
+    cursor: pointer;
 }
 
 /* Footer */
