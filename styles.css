@@ -1,0 +1,79 @@
+/* Body */
+body {
+    background-color: #112233;
+}
+
+/* Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+#contact-form {
+    color: #fff;
+}
+
+/* Text */
+p {
+    color: #ddd;
+}
+
+/* Table */
+table {
+    color: #bbb;
+}
+
+/* Fields */
+input,
+textarea {
+    margin-top: 20px; /* Spacing above the button */
+    display: flex; /* Enables easy alignment (left, center, or right) */
+    background-color: #003355;
+    border-color: #000;
+    color: #aabbff;
+}
+
+/* Buttons */
+
+.contact-submit-btn {
+    margin-top: 20px; /* Spacing above the button */
+    display: flex; /* Enables easy alignment (left, center, or right) */
+    justify-content: flex-start; /* Change to 'center' or 'flex-end' if needed */
+}
+
+.contact-submit-btn {
+    border-color: aquamarine;
+}
+
+/* Footer */
+footer {
+    color: aquamarine;
+}
+
+/* Links */
+/* Base style for all links */
+a:link {
+    color: #3498db; /* Soft blue color */
+    text-decoration: none; /* Removes the default underline */
+}
+
+/* Style for links already visited */
+a:visited {
+    color: #9b59b6; /* Purple color */
+}
+
+/* Style when keyboard focuses on the link */
+a:focus {
+    outline: 2px solid #e67e22; /* Adds a visible orange outline */
+}
+
+/* Style when mouse hovers over the link */
+a:hover {
+    color: #2980b9; /* Darker blue on hover */
+    text-decoration: underline; /* Bring back the underline */
+}
+
+/* Style at the exact moment of clicking */
+a:active {
+    color: #e74c3c; /* Turns red briefly when clicked */
+}
