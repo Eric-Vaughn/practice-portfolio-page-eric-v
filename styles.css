@@ -7,6 +7,18 @@ body {
     background-color: #112233;
 }
 
+/* Header */
+header {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color:#2980b9;
+}
+
+.banner-content p {
+    text-align: center;
+}
+
 /* Image sizing */
 .icon-image {
     width: 30px;
