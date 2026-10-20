@@ -34,6 +34,7 @@ p {
 
 /* Table */
 table {
+    display: flex;
     color: #bbb;
     text-align: center;
 }
@@ -46,7 +47,7 @@ th {
 input,
 textarea {
     display: flex; /* Enables alignment (left, center, or right) */
-    margin-top: 20px; /* Spacing above the button */
+    margin-top: 5px; /* Spacing above the field */
     background-color: #003355;
     border: 2px solid #2980b9;
     padding: 12px 12px;
@@ -62,7 +63,7 @@ label {
 /* Buttons */
 
 /* Contact form's submit button */
-.contact-submit-btn input[type="submit"] {
+.contact-submit-btn button[type="submit"] {
     margin-top: 20px; /* Spacing above the button */
     display: flex; /* Enables easy alignment (left, center, or right) */
     justify-content: flex-start; /* Change to 'center' or 'flex-end' if needed */
