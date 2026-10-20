@@ -25,7 +25,7 @@ header {
     height: auto;
 
     position: relative;
-    top: 8px;
+    top: 9px;
     right: 4px;
 }
 
@@ -80,6 +80,8 @@ label {
 .form-buttons {
     display: flex;
     flex-direction: row;
+
+    padding-bottom: 20px;
 }
 
 /* Contact form's reset button */
@@ -118,10 +120,25 @@ label {
 
 /* Footer */
 footer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #001122;
     color: aquamarine;
 }
 
+.footer-list {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-list ul {
+    list-style-type: none;
+}
+
 /* Links */
+
 /* Base style for all links */
 a:link {
     color: #3498db; /* Soft blue color */
