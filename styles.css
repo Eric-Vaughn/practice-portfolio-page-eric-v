@@ -29,14 +29,16 @@ h5,
 
 /* Text */
 p {
+    text-align: left;
     color: #ddd;
 }
 
 /* Table */
 table {
     display: flex;
+    justify-content: center;
+    align-items: center; /* Redundant */
     color: #bbb;
-    text-align: center;
 }
 
 th {
@@ -56,7 +58,7 @@ textarea {
 
 label {
     display: flex;
-    margin-top: 20px; /* Spacing above the button */
+    margin-top: 20px; /* Spacing above the label */
     font-size: 18px;
 }
 
