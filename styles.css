@@ -129,15 +129,19 @@ footer {
 }
 
 .footer-list {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
 
     padding-right: 20px;
 }
 
 .footer-list ul {
     list-style-type: none;
+}
+
+.footer-list h2 {
+    text-align: center;
 }
 
 /* Links */
