@@ -45,8 +45,8 @@ th {
 /* Fields */
 input,
 textarea {
-    margin-top: 20px; /* Spacing above the button */
     display: flex; /* Enables alignment (left, center, or right) */
+    margin-top: 20px; /* Spacing above the button */
     background-color: #003355;
     border: 2px solid #2980b9;
     padding: 12px 12px;
@@ -54,6 +54,8 @@ textarea {
 }
 
 label {
+    display: flex;
+    margin-top: 20px; /* Spacing above the button */
     font-size: 18px;
 }
 
