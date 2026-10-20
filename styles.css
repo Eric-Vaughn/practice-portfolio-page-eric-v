@@ -62,11 +62,33 @@ label {
 
 /* Buttons */
 
+/* General attributes for all form buttons */
+.form-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Contact form's reset button */
+.contact-reset-btn button[type="reset"] {
+    margin-top: 20px; /* Spacing above the button */
+    background-color: #db2a2a;
+
+    border: 2px solid #b82727;
+    padding: 12px 12px;
+    margin-right: 10px;
+
+
+    /* Text styling */
+    color: white;
+    font-size: 16px;
+
+    /* Change cursor to a hand, showing it's clickable */
+    cursor: pointer;
+}
+
 /* Contact form's submit button */
 .contact-submit-btn button[type="submit"] {
     margin-top: 20px; /* Spacing above the button */
-    display: flex; /* Enables easy alignment (left, center, or right) */
-    justify-content: flex-start; /* Change to 'center' or 'flex-end' if needed */
     background-color: #3498db;
 
     border: 2px solid #2980b9;
