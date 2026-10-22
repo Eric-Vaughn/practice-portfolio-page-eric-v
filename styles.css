@@ -12,7 +12,7 @@ header {
     padding: 0;
     margin: 0;
     width: 100%;
-    background-color:#2980b9;
+    background-color:#3080ba;
 }
 
 .banner-content p {
@@ -63,9 +63,15 @@ textarea {
     display: flex; /* Enables alignment (left, center, or right) */
     margin-top: 5px; /* Spacing above the field */
     background-color: #003355;
-    border: 2px solid #2980b9;
+    border: 2px solid #3080ba;
     padding: 12px 12px;
     color: #aabbff;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    border-color: #3080ba;
+
 }
 
 label {
@@ -107,7 +113,7 @@ label {
     margin-top: 20px; /* Spacing above the button */
     background-color: #3498db;
 
-    border: 2px solid #2980b9;
+    border: 2px solid #3080ba;
     padding: 12px 12px;
 
     /* Text styling */
@@ -164,7 +170,7 @@ a:focus {
 
 /* Style when mouse hovers over the link */
 a:hover {
-    color: #2980b9; /* Darker blue on hover */
+    color: #3080ba; /* Darker blue on hover */
     text-decoration: underline; /* Bring back the underline */
 }
 

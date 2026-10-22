@@ -63,46 +63,53 @@
             <section id="contact-form">
                 <h2>Contact Form</h2>
                 <form action="submit/" method="POST">
-                    <!-- Text input -->
-                    <div>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required />
-                    </div>
+                    <fieldset>
+                        <!-- Text input -->
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required />
+                        </div>
 
-                    <!-- Email address -->
-                    <div>
-                        <label for="email">Email Address:</label>
-                        <input type="email" id="email" name="email" required />
-                    </div>
+                        <!-- Email address -->
+                        <div>
+                            <label for="email">Email Address:</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                            />
+                        </div>
 
-                    <!-- Message address -->
-                    <div>
-                        <label for="message">Message:</label>
-                        <textarea
-                            id="message"
-                            name="message"
-                            rows="4"
-                            cols="50"
-                        >
+                        <!-- Message address -->
+                        <div>
+                            <label for="message">Message:</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="4"
+                                cols="50"
+                            >
 Put your message here!</textarea
-                        >
-                    </div>
-
-                    <div class="form-buttons">
-                        <!-- Reset button -->
-                        <div class="contact-reset-btn">
-                            <button type="reset" value="reset button">
-                                Reset
-                            </button>
+                            >
                         </div>
 
-                        <!-- Submit button -->
-                        <div class="contact-submit-btn">
-                            <button type="submit" value="submit button">
-                                Submit
-                            </button>
+                        <div class="form-buttons">
+                            <!-- Reset button -->
+                            <div class="contact-reset-btn">
+                                <button type="reset" value="reset button">
+                                    Reset
+                                </button>
+                            </div>
+
+                            <!-- Submit button -->
+                            <div class="contact-submit-btn">
+                                <button type="submit" value="submit button">
+                                    Submit
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                    </fieldset>
                 </form>
             </section>
         </main>
@@ -147,8 +154,7 @@ Put your message here!</textarea
                             alt="Bluesky's Logo"
                             class="icon-image"
                         />
-                        <a
-                            href="https://www.linkedin.com/in/eric-vaughn4/"
+                        <a href="https://www.linkedin.com/in/eric-vaughn4/"
                             >LinkedIn</a
                         >
                     </li>
