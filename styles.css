@@ -22,10 +22,6 @@ header p {
 /* Main */
 main {
     margin: 16px;
-}
-
-.centered {
-    align-items: center;
     text-align: center;
 }
 
