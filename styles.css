@@ -1,20 +1,28 @@
 /* Body */
 body {
+    margin: 0px;
     background-color: #112233;
 }
 
 /* Header */
 header {
-    padding: 0;
-    margin: 0;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
     width: 100%;
     background-color: #3080ba;
 }
 
 header h1,
 header p {
+    margin: 0px;
     text-align: center;
 }
+
+/* Main */
+/* main {
+    margin: 16px;
+} */
 
 .centered {
     align-items: center;
