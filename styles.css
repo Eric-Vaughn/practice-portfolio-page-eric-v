@@ -1,9 +1,5 @@
 /* Body */
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     background-color: #112233;
 }
 
@@ -15,8 +11,26 @@ header {
     background-color: #3080ba;
 }
 
-.banner-content p {
+header h1,
+header p {
     text-align: center;
+}
+
+.centered {
+    align-items: center;
+    text-align: center;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.column-left,
+.column-middle,
+.column-right {
+    flex: 1;
 }
 
 /* Image sizing */
@@ -29,13 +43,12 @@ header {
     right: 4px;
 }
 
-/* Headers */
+/* Headings */
 h1,
 h2,
 h3,
 h4,
-h5,
-#contact-form {
+h5 {
     color: #fff;
 }
 
@@ -77,6 +90,7 @@ label {
     display: flex;
     margin-top: 20px; /* Spacing above the label */
     font-size: 18px;
+    color: #fff;
 }
 
 /* Buttons */
