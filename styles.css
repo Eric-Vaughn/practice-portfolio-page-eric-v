@@ -139,15 +139,15 @@ footer {
     align-items: left;
     text-align: left;
 
-    padding-right: 20px;
+    padding-right: 15%; /*  */
 }
 
 .footer-list ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0px;
     list-style-type: none;
-}
-
-.footer-list h2 {
-    text-align: center;
 }
 
 /* Links */
