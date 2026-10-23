@@ -14,167 +14,196 @@
         </header>
 
         <main class="column-container">
-            <!-- About section -->
-            <section class="column-left" id="about">
-                <h2>About Me</h2>
-                <img src="assets/2022-06-30-estas-park-colorado-alluvial-fan-CROPPED.png" alt="An image of Eric Vaughn" class="profile-image"/>
-                <p>I'm Eric Vaughn, a programmer learning WebDev!</p>
+            <!-- LEFT COLUMN -->
+            <section class="column-left">
+                <!-- About section -->
+                <section id="about">
+                    <h2>About Me</h2>
+                    <img
+                        src="assets/2022-06-30-estas-park-colorado-alluvial-fan-CROPPED.png"
+                        alt="An image of Eric Vaughn"
+                        class="profile-image"
+                    />
+                    <p>I'm Eric Vaughn, a programmer learning WebDev!</p>
+                </section>
             </section>
 
-            <!-- Skills section -->
-            <section class="column-middle" id="skills">
-                <h2>Skills</h2>
-                <table>
-                    <!-- Header row -->
-                    <tr>
-                        <th>Skill</th>
-                        <th>Proficiency Level out of 10</th>
-                    </tr>
-
-                    <!-- Data row 1 -->
-                    <tr>
-                        <th>Programing</th>
-                        <td>8</td>
-                    </tr>
-
-                    <!-- Data row 2 -->
-                    <tr>
-                        <th>File System</th>
-                        <td>9</td>
-                    </tr>
-
-                    <!-- Data row 3 -->
-                    <tr>
-                        <th>Keyboard Shortcuts</th>
-                        <td>7</td>
-                    </tr>
-
-                    <!-- Data row 4 -->
-                    <tr>
-                        <th>Writing</th>
-                        <td>7.5</td>
-                    </tr>
-                </table>
+            <!-- MIDDLE COLUMN -->
+            <section class="column-middle">
+                <h2>TEMP TEXT - PUT A SECTION HERE!</h2>
+                <p>Preferably with a lot of text (push footer down).</p>
             </section>
 
-            <!-- Contact Form section -->
-            <section class="column-right" id="contact-form">
-                <h2>Contact Form</h2>
-                <form action="submit/" method="POST">
-                    <fieldset>
-                        <!-- Text input -->
-                        <div>
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" required />
-                        </div>
+            <!-- RIGHT COLUMN -->
+            <section class="column-right">
+                <h2>PROJECTS Section?</h2>
+                <!-- Skills section -->
+                <section id="skill">
+                    <h2>Skills</h2>
+                    <table>
+                        <!-- Header row -->
+                        <tr>
+                            <th>Skill</th>
+                            <th>Proficiency Level out of 10</th>
+                        </tr>
 
-                        <!-- Email address -->
-                        <div>
-                            <label for="email">Email Address:</label>
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                required
-                            />
-                        </div>
+                        <!-- Data row 1 -->
+                        <tr>
+                            <th>Programing</th>
+                            <td>8</td>
+                        </tr>
 
-                        <!-- Message address -->
-                        <div>
-                            <label for="message">Message:</label>
-                            <textarea
-                                id="message"
-                                name="message"
-                                rows="4"
-                                cols="50"
-                            >
-Put your message here!</textarea
-                            >
-                        </div>
+                        <!-- Data row 2 -->
+                        <tr>
+                            <th>File System</th>
+                            <td>9</td>
+                        </tr>
 
-                        <div class="form-buttons">
-                            <!-- Reset button -->
-                            <div class="contact-reset-btn">
-                                <button type="reset" value="reset button">
-                                    Reset
-                                </button>
-                            </div>
+                        <!-- Data row 3 -->
+                        <tr>
+                            <th>Keyboard Shortcuts</th>
+                            <td>7</td>
+                        </tr>
 
-                            <!-- Submit button -->
-                            <div class="contact-submit-btn">
-                                <button type="submit" value="submit button">
-                                    Submit
-                                </button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
+                        <!-- Data row 4 -->
+                        <tr>
+                            <th>Writing</th>
+                            <td>7.5</td>
+                        </tr>
+                    </table>
+                </section>
             </section>
         </main>
 
         <!-- Footer -->
         <footer>
-            <div class="footer-list">
-                <h2>Connect</h2>
-                <ul>
-                    <!-- GitHub -->
-                    <li>
-                        <img
-                            src="assets/github-logo.png"
-                            alt="GitHub's logo"
-                            class="icon-image"
-                        />
-                        <a href="https://github.com/Eric-Vaughn">Github</a>
-                    </li>
+            <div class="footer-content">
+                <!-- Connect List -->
+                <div class="footer-list">
+                    <h2>Connect</h2>
+                    <ul>
+                        <!-- GitHub -->
+                        <li>
+                            <img
+                                src="assets/github-logo.png"
+                                alt="GitHub's logo"
+                                class="icon-image"
+                            />
+                            <a href="https://github.com/Eric-Vaughn">Github</a>
+                        </li>
 
-                    <!-- LeetCode -->
-                    <li>
-                        <img
-                            src="assets/leetcode-logo.png"
-                            alt="LeetCode's Logo"
-                            class="icon-image"
-                        />
-                        <a href="https://leetcode.com/u/OracleMoss/"
-                            >LeetCode</a
-                        >
-                    </li>
+                        <!-- LeetCode -->
+                        <li>
+                            <img
+                                src="assets/leetcode-logo.png"
+                                alt="LeetCode's Logo"
+                                class="icon-image"
+                            />
+                            <a href="https://leetcode.com/u/OracleMoss/"
+                                >LeetCode</a
+                            >
+                        </li>
 
-                    <!-- Bluesky -->
-                    <li>
-                        <img
-                            src="assets/bluesky-logo-black-white.png"
-                            alt="Bluesky's Logo"
-                            class="icon-image"
-                        />
-                        <a
-                            href="https://bsky.app/profile/oraclemoss.bsky.social/"
-                            >Bluesky</a
-                        >
-                    </li>
+                        <!-- Bluesky -->
+                        <li>
+                            <img
+                                src="assets/bluesky-logo-black-white.png"
+                                alt="Bluesky's Logo"
+                                class="icon-image"
+                            />
+                            <a
+                                href="https://bsky.app/profile/oraclemoss.bsky.social/"
+                                >Bluesky</a
+                            >
+                        </li>
 
-                    <!-- LinkedIn -->
-                    <li>
-                        <img
-                            src="assets/linkedin-logo.png"
-                            alt="Bluesky's Logo"
-                            class="icon-image"
-                        />
-                        <a href="https://www.linkedin.com/in/eric-vaughn4/"
-                            >LinkedIn</a
-                        >
-                    </li>
-                </ul>
+                        <!-- LinkedIn -->
+                        <li>
+                            <img
+                                src="assets/linkedin-logo.png"
+                                alt="Bluesky's Logo"
+                                class="icon-image"
+                            />
+                            <a href="https://www.linkedin.com/in/eric-vaughn4/"
+                                >LinkedIn</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Projects List -->
+                <div class="footer-list">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li>Hereereererereerer</li>
+                        <li>EMAIL???</li>
+                    </ul>
+                </div>
+
+                <!-- Contact Form section -->
+                <section id="contact-form">
+                    <h2>Contact Form</h2>
+                    <form action="submit/" method="POST">
+                        <fieldset>
+                            <!-- Text input -->
+                            <div>
+                                <label for="name">Name:</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    required
+                                />
+                            </div>
+
+                            <!-- Email address -->
+                            <div>
+                                <label for="email">Email Address:</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    required
+                                />
+                            </div>
+
+                            <!-- Message address -->
+                            <div>
+                                <label for="message">Message:</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="4"
+                                    cols="50"
+                                >
+Put your message here!</textarea
+                                >
+                            </div>
+
+                            <div class="form-buttons">
+                                <!-- Reset button -->
+                                <div class="contact-reset-btn">
+                                    <button type="reset" value="reset button">
+                                        Reset
+                                    </button>
+                                </div>
+
+                                <!-- Submit button -->
+                                <div class="contact-submit-btn">
+                                    <button type="submit" value="submit button">
+                                        Submit
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </section>
             </div>
 
-            <div class="footer-list">
-                <h2>Projects</h2>
-                <ul>
-                    <li>Hereereererereerer</li>
-                    <li>EMAIL???</li>
-                </ul>
-            </div>
             <!-- Copyright message -->
-            <p>&copy; 2026 &bull; Eric Vaughn</p>
+            <div class="footer-copyright-message">
+                <p>&copy; 2026 &bull; Eric Vaughn</p>
+            </div>
         </footer>
     </body>
 </html>
