@@ -12,7 +12,7 @@ header {
     padding: 0;
     margin: 0;
     width: 100%;
-    background-color:#3080ba;
+    background-color: #3080ba;
 }
 
 .banner-content p {
@@ -71,7 +71,6 @@ textarea {
 fieldset {
     margin-bottom: 10px;
     border-color: #3080ba;
-
 }
 
 label {
@@ -98,7 +97,6 @@ label {
     border: 2px solid #b82727;
     padding: 12px 12px;
     margin-right: 10px;
-
 
     /* Text styling */
     color: white;
@@ -139,7 +137,8 @@ footer {
     align-items: left;
     text-align: left;
 
-    padding-right: 15%; /*  */
+    padding-left: 5%; /* Scale with screen size */
+    padding-right: 10%; /* Scale with screen size */
 }
 
 .footer-list ul {
