@@ -16,7 +16,13 @@ header {
 header h1,
 header p {
     margin: 0px;
+    padding-top: 20px;
     text-align: center;
+}
+
+header p {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Main */
@@ -35,6 +41,15 @@ main {
 .column-middle,
 .column-right {
     flex: 1;
+}
+
+.column-left {
+    margin-left: 16px;
+    text-align: left;
+}
+
+.column-right {
+    margin-right: 16px;
 }
 
 /* Image sizing */
