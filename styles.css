@@ -160,6 +160,11 @@ label {
     cursor: pointer;
 }
 
+#contact-form {
+    transform: scale(0.8);
+    transform-origin: top center;
+}
+
 /* Footer */
 footer {
     display: flex;
