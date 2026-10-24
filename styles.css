@@ -160,9 +160,14 @@ label {
     cursor: pointer;
 }
 
-#contact-form {
+.contact-form-text-email-row {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-form {
     transform: scale(0.8);
-    transform-origin: top center;
+    transform-origin: top left;
 }
 
 /* Footer */
