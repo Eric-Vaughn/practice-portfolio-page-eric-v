@@ -51,6 +51,12 @@ main {
     margin-right: 16px;
 }
 
+.column-r-section {
+    border: 2px solid #3080ba;
+    padding-bottom: 20px;
+}
+
+
 /* Image sizing */
 .icon-image {
     width: 32px;
@@ -65,6 +71,8 @@ main {
 .profile-image {
     width: 300px;
     height: auto;
+
+    border: 5px solid #3080ba;
 }
 
 /* Headings */
@@ -80,6 +88,14 @@ h5 {
 p {
     text-align: left;
     color: #ddd;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;
 }
 
 /* Table */
@@ -177,15 +193,16 @@ footer {
     width: 100%;
     padding-bottom: 20px;
     background-color: #001122;
-    color: aquamarine;
+    color: #3080ba;
 }
 
 .footer-content {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .footer-list {
@@ -205,34 +222,28 @@ footer {
 }
 
 .footer-copyright-message p {
-    padding-left: 20px;
+    padding-left: 100px;
 }
 
 /* Links */
 
-/* Base style for all links */
 a:link {
-    color: #3498db; /* Soft blue color */
-    text-decoration: none; /* Removes the default underline */
+    color: aqua;
 }
 
-/* Style for links already visited */
 a:visited {
-    color: #9b59b6; /* Purple color */
+    color: #4d54b9;
 }
 
-/* Style when keyboard focuses on the link */
 a:focus {
-    outline: 2px solid #e67e22; /* Adds a visible orange outline */
+    outline: 2px solid #228ee6;
 }
 
-/* Style when mouse hovers over the link */
 a:hover {
-    color: #3080ba; /* Darker blue on hover */
-    text-decoration: underline; /* Bring back the underline */
+    color: #3080ba; /* Lighter blue on hover */
+    text-decoration: none;
 }
 
-/* Style at the exact moment of clicking */
 a:active {
-    color: #e74c3c; /* Turns red briefly when clicked */
+    color: aquamarine; /* Turns red briefly when clicked */
 }
