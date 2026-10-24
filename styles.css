@@ -52,6 +52,7 @@ main {
 }
 
 .column-r-section {
+    margin-bottom: 20px;
     border: 2px solid #3080ba;
     padding-bottom: 20px;
 }
