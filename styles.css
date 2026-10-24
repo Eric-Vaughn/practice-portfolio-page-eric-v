@@ -51,12 +51,26 @@ main {
     margin-right: 16px;
 }
 
-.column-r-section {
+.column-section {
     margin-bottom: 20px;
     border: 2px solid #3080ba;
     padding-bottom: 20px;
 }
 
+.column-section p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#interests h3 {
+    font-size: 18px;
+}
+
+#interests p {
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+}
 
 /* Image sizing */
 .icon-image {
