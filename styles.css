@@ -43,8 +43,12 @@ main {
     flex: 1;
 }
 
-.column-left, .column-right {
+.column-left {
     margin-left: 16px;
+}
+
+.column-right {
+    margin-right: 16px;
 }
 
 .column-section {
